@@ -208,7 +208,7 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: "Atkinson Hyperlegible Next", Atkinson Hyperlegible Next; 
+		font-family: "Atkinson Hyperlegible Next", Atkinson Hyperlegible Next sans-serif;
 		font-size: 1rem;
 		font-weight: 200;
 		line-height: 1.65;
