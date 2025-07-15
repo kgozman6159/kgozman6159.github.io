@@ -6,6 +6,40 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+@font-face {
+    font-family: 'AtkinsonHyperlegibleNext';
+    src: url('assets/webfonts/AtkinsonHyperlegibleNext-Bold.ttf') format('truetype');
+	src: url('assets/webfonts/AtkinsonHyperlegibleNext-BoldItalic.ttf') format('truetype');
+	src: url('assets/webfonts/AtkinsonHyperlegibleNext-ExtraBold.ttf') format('truetype');
+	src: url('assets/webfonts/AtkinsonHyperlegibleNext-ExtraBoldItalic.ttf') format('truetype');
+	src: url('assets/webfonts/AtkinsonHyperlegibleNext-ExtraLight.ttf') format('truetype');
+	src: url('assets/webfonts/AtkinsonHyperlegibleNext-ExtraLightItalic.ttf') format('truetype');
+	src: url('assets/webfonts/AtkinsonHyperlegibleNext-Light.ttf') format('truetype');
+	src: url('assets/webfonts/AtkinsonHyperlegibleNext-LightItalic.ttf') format('truetype');
+	src: url('assets/webfonts/AtkinsonHyperlegibleNext-Medium.ttf') format('truetype');
+	src: url('assets/webfonts/AtkinsonHyperlegibleNext-MediumItalic.ttf') format('truetype');
+	src: url('assets/webfonts/AtkinsonHyperlegibleNext-Regular.ttf') format('truetype');
+	src: url('assets/webfonts/AtkinsonHyperlegibleNext-RegularItalic.ttf') format('truetype');
+	src: url('assets/webfonts/AtkinsonHyperlegibleNext-SemiBold.ttf') format('truetype');
+	src: url('assets/webfonts/AtkinsonHyperlegibleNext-SemiBoldItalic.ttf') format('truetype');
+
+    src: url('assets/webfonts/AtkinsonHyperlegibleNext-Bold.woff2') format('woff2');
+	src: url('assets/webfonts/AtkinsonHyperlegibleNext-BoldItalic.woff2') format('woff2');
+	src: url('assets/webfonts/AtkinsonHyperlegibleNext-ExtraBold.woff2') format('woff2');
+	src: url('assets/webfonts/AtkinsonHyperlegibleNext-ExtraBoldItalic.woff2') format('woff2');
+	src: url('assets/webfonts/AtkinsonHyperlegibleNext-ExtraLight.woff2') format('woff2');
+	src: url('assets/webfonts/AtkinsonHyperlegibleNext-ExtraLightItalic.woff2') format('woff2');
+	src: url('assets/webfonts/AtkinsonHyperlegibleNext-Light.woff2') format('woff2');
+	src: url('assets/webfonts/AtkinsonHyperlegibleNext-LightItalic.woff2') format('woff2');
+	src: url('assets/webfonts/AtkinsonHyperlegibleNext-Medium.woff2') format('woff2');
+	src: url('assets/webfonts/AtkinsonHyperlegibleNext-MediumItalic.woff2') format('woff2');
+	src: url('assets/webfonts/AtkinsonHyperlegibleNext-Regular.woff2') format('woff2');
+	src: url('assets/webfonts/AtkinsonHyperlegibleNext-RegularItalic.woff2') format('woff2');
+	src: url('assets/webfonts/AtkinsonHyperlegibleNext-SemiBold.woff2') format('woff2');
+	src: url('assets/webfonts/AtkinsonHyperlegibleNext-SemiBoldItalic.woff2') format('woff2');
+
+}
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
