@@ -5055,7 +5055,7 @@ input, select, textarea {
 				-moz-object-position: center;
 				-webkit-object-position: center;
 				-ms-object-position: center;
-				object-position: 60% 100%;
+				object-position: 50% 100%;
 				display: block;
 				position: absolute;
 				top: 0;
