@@ -45,7 +45,7 @@
 								<a class="nav-link text-white" href="publications.html">Publications</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link text-white" href="CV_master_2025.pdf" target="_blank">CV</a>
+								<a class="nav-link text-white" href="CV_master_2026.pdf" target="_blank">CV</a>
 							</li>
 						</ul>
 					</div>
@@ -96,7 +96,7 @@
 					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
 						<div class="content">
 							<!-- <h2><strong>Overview</strong></h2> -->
-							<p>Throughout my graudate career, I've realized that I quite enjoy the process of creating data visuals and using them as another 
+							<p>Throughout my graduate career, I've realized that I quite enjoy the process of creating data visuals and using them as another 
 								tool to tell stories about complex scientific concepts in a more approachable way. I've honed my skills by creating figures for my research papers and posters,
 								coursework, and working on personal projects.
 								Take a look at some of my work below! </p>
@@ -107,6 +107,98 @@
 							<img src="images/spotlight02.jpg" alt="" />
 						</div> -->
 					</section>
+
+					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+
+							<h2><strong>AREPAS🫓: A Resource for Exploring Protostellar Accretion Systems</strong>
+							</h2>
+							<span class="badge" style="background-color:#396f9c74; font-size: medium;">
+								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python icon" style="height:1em; vertical-align:middle; margin-right:0.3em;">
+								python
+							</span>
+							<span class="badge" style="background-color:#ff4b4b74; font-size: medium;">
+								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/streamlit/streamlit-original.svg" alt="Streamlit icon" style="height:1em; vertical-align:middle; margin-right:0.3em;">
+								Streamlit
+							</span>
+							<span class="badge" style="background-color:#fbc12db9; font-size: medium;">
+								<img src="https://raw.githubusercontent.com/vega/altair/refs/heads/main/doc/_static/favicon.ico" alt="Altair icon" style="height:1em; vertical-align:middle; margin-right:0.3em;">
+								Altair
+							</span>
+
+							<p>
+								<br>
+								Leveraging my experience from making the Interactive Local Volume Databse (detailed below), I went on a side quest from my usual galaxies-related research to work with fellow grad student <a href="https://sites.google.com/umich.edu/marbelymicolta/" target="_blank">Marbely Micolta</a> on an interactive app for 
+								protoplanetary disk researchers. Stars are born from the collapse of a molecular cloud, which flattens out to form a disk around the protostar to conserve angular momentum. 
+								In many T Tauri stars -- young (1-10 Myr), low-mass (<1M<sub>☉</sub>) pre-main sequence stars -- the inner part of the disk is truncated by magentic field lines, which also act as "highways" that guide rocky material 
+								that has reached the inner disk onto the star, impacting the star at free-fall velocity in <span style="color: #aca5cf; font-weight: 900;"><mark>magnetospheric accretion flows</mark></span>.
+								Not only is this is one of the primary mechanisms by which these prostars grow in mass, but they are also important tracers of the presence (or absence) of rocky material that can build planets!
+
+							</p>
+							<p>
+								Marbely and her collaborators study what processes govern the composition of this rocky material in the inner 10 AU of protoplanetary disks. 
+								Specifically, they look at the presence of different optical and UV emission lines that can trace the composition of material in these flows and the mass accretion rate of the protostar.
+								As part of this work, they ran a  <a href="https://github.com/marmicolta/database_magneto_models" target="_blank"><span style="color: #aca5cf; font-weight: 900;"><mark>large grid of models of strong T Tauri emission line profiles</mark></span></a>,
+								which can be compared to line profiles from observed protoplanetary disks to constrain their mass accretion rates and disk parameters. 
+
+							</p>
+							<p>
+								To make it easier to explore this model grid, Marbely and I collaborated to created the <a href="https://github.com/marmicolta/AREPAS" target="_blank"><span style="color: #aca5cf; font-weight: 900;"><mark>AREPAS🫓</mark></span></a><sup>*</sup>app.
+								This open-source app lets users <span style="color: #aca5cf; font-weight: 900;"><mark>plot and compare different model profiles for sets of different spectral lines, mass accretion rates, temperatures, disk geometries, inclinations, and abundances</mark></span>, and also allows users to upload their
+								own observed profiles to compare to the models and estimate a coarse grid of parameters that may be used as a starting point for fitting their data. Users can plot the raw line model fluxes, fluxes normalized to the continuum, or line luminosities,
+								and the app also calculates the integrated flux of each model profile. The plot has hover/zoom/panning capabilities, and users can also download a csv file
+								of specific models of interest without having to download the full dataset. 
+							</p>
+							<p>
+								This work has been written up in a <a href="https://iopscience.iop.org/article/10.3847/2515-5172/ae5241" target="_blank">Research Note of the AAS!</a>
+								Any <span style="color: #aca5cf; font-weight: 900;"><mark>comments/suggestions/bug finds are much appreciated</mark></span> and can be reported on the project's <a href="https://github.com/marmicolta/AREPAS" target="_blank">Github repository</a>!
+
+
+							</p>
+							<p>
+								<sup>*</sup>AREPAS🫓 is named after the <i>arepa</i>, a delicious South American stuffed corn flour flatbread commonly eaten in Venezuela and Colombia. They can stuffed with a variety of fillings, 
+								including meat, cheese, avocado, beans, fried plantains (my favorite), and other ingredients that vary from place to place.
+							</p>
+							<p>
+							<!-- <ul class="actions stacked"> -->
+								<!-- <br><br> -->
+								<a href="https://arepas.streamlit.app/" target="_blank" class="button primary" style="margin-right:16px">Explore the app!</a>
+								<a href="https://github.com/marmicolta/database_magneto_models" target="_blank" class="button primary" style="margin-right:16px">Access the full database!</a>
+								<a href="https://iopscience.iop.org/article/10.3847/2515-5172/ae5241" target="_blank" class="button primary">Read the paper!</a>
+
+								<!-- <br><br> -->
+							<!-- </ul> -->
+							</p>
+							<!-- <figure>
+								<img
+									src="images/lvd.png"
+									alt="my arcs"
+									class="image" style="width: 100%; max-width: 70%; max-height: auto;"/> -->
+								<!-- <figcaption class="image right" style="width: 100%; max-width: 50%; max-height: auto; background-color: rgb(139, 9, 70); color: #fff; padding: 0.5em; border-radius: 0.3em; font-size: 0.7em ;">
+									<i>An RGB image of the lensed galaxy arc at z~5 our class found! Overlaid is the Magellan/LDSS3 spectrum of the brightest knot in the arc. 
+										The raw spectrum is plotted in light blue, a smoothed spectrum is in orange, and a reference spectrum to determine the redshift is in green. 
+										Rest-frame UV stellar and nebular absorption lines are indicated by the red lines.</i>
+								</figcaption> -->
+
+
+							<!-- <video controls style="width:100%; max-width:900px; margin: 0em 0;" aria-label="Demo video of the interactive Local Volume Database web app showing data exploration features." alt="Demo video of the interactive Local Volume Database web app showing data exploration features.">
+								<source src="images/lvd2.mp4" type="video/mp4">
+								Your browser does not support the video tag. Demo video of the interactive Local Volume Database web app showing data exploration features.
+							</video> -->
+							<!-- <p style="font-size:0.9em; color:#555; margin-top:0.5em;">
+								<i>Demo of the interactive Local Volume Database web app.</i>
+							</p> -->
+							</p>
+
+						
+
+						</div>
+						<!-- <div class="image">
+							<img src="images/spotlight03.jpg" alt="" />
+						</div> -->
+					</section>
+
+
 					
 					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
 						<div class="content">
@@ -292,7 +384,7 @@
 										<!-- Click below to see the full-sized visuals, the original article and my annotations, and the write-up of my thought-process in making these visuals. -->
 
 									<!-- <ul class="actions stacked"> -->
-										<a href="https://huggingface.co/spaces/kgozman/galaxy_properties_scivizproj" target="_blank" class="button primary">Check out the viz!</a></li>
+										<a href="https://huggingface.co/spaces/kgozman/galaxy_properties_scivizproj" target="_blank" class="button primary" style="margin-right:16px">Check out the viz!</a></li>
 										<a href="images/Scientific Viz Project.pdf" target="_blank" class="button primary">Read the writeup!</a></li>
 
 									<!-- </ul> -->
